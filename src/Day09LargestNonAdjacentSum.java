@@ -12,8 +12,8 @@ public class Day09LargestNonAdjacentSum {
 		int arr1[] = {2, 4, 6, 2, 5};
 		int arr2[] = {5, 1, 1, 5};
 		
-		System.out.println("THe max sum is: " + maxSum(arr1));
-		System.out.println("THe max sum is: " + maxSum(arr2));
+		System.out.println("The max sum is: " + maxSum(arr1));
+		System.out.println("The max sum is: " + maxSum(arr2));
 
 	}
 	
