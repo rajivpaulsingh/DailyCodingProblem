@@ -2,7 +2,7 @@
  * Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds
  */
 
-public class Day10FunctionRun {
+public class Day10JobScheduler {
 
 	public static void main(String args[]) {
 
@@ -20,7 +20,6 @@ public class Day10FunctionRun {
         }, 1000);
 
         // java 8
-
         solution(() -> System.out.println("Hello World"), 1000);
 
     }
