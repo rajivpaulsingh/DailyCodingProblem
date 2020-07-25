@@ -12,6 +12,7 @@ public class Day20LinkedListIntersection {
 	public class ListNode {
 		 int val;
 		 ListNode next;
+		 
 		 ListNode(int x) {
 		     val = x;
 		     next = null;
@@ -21,6 +22,7 @@ public class Day20LinkedListIntersection {
 	public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         
         HashMap<ListNode, Integer> hmap = new HashMap<ListNode, Integer>();
+        
         ListNode temp = headA;
         while(temp != null) {
             hmap.put(temp, 1);
