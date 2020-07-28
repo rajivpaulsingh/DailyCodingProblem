@@ -38,7 +38,8 @@ public class Day24BinaryTreeWithLock {
         while(parentNode != null) {
             if(parentNode.locked) {
                 return false;
-            }　　　　　　　　　parentNode = parentNode.parent;
+            }
+            parentNode = parentNode.parent;
         }
         return true;
     }
